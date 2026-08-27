@@ -1,0 +1,116 @@
+{
+  "id": "tpl_mtb0zdym_an7w8jd9",
+  "name": "New Certificate Template",
+  "description": "Certificate template description",
+  "dimensions": {
+    "width": 1000,
+    "height": 700
+  },
+  "placeholders": [
+    "recipient_name",
+    "course",
+    "issue_date",
+    "issuer_name"
+  ],
+  "elements": [
+    {
+      "id": "el_mtb0yqjn_zz5fpmtn",
+      "type": "text",
+      "x": 500,
+      "y": 120,
+      "text": "CERTIFICATE OF APPRECIATION",
+      "fontSize": 32,
+      "fontWeight": "bold",
+      "color": "#f8fafc",
+      "textAlign": "center"
+    },
+    {
+      "id": "el_mtb0yqjn_98lk84v4",
+      "type": "text",
+      "x": 500,
+      "y": 190,
+      "text": "PROUDLY PRESENTED TO",
+      "fontSize": 14,
+      "fontWeight": "normal",
+      "color": "#94a3b8",
+      "textAlign": "center"
+    },
+    {
+      "id": "el_mtb0yqjn_ykmvrur1",
+      "type": "placeholder",
+      "placeholderKey": "recipient_name",
+      "x": 500,
+      "y": 280,
+      "text": "{{recipient_name}}",
+      "fontSize": 38,
+      "fontWeight": "bold",
+      "color": "#38bdf8",
+      "textAlign": "center"
+    },
+    {
+      "id": "el_mtb0yqjn_heautvos",
+      "type": "text",
+      "x": 500,
+      "y": 360,
+      "text": "for outstanding performance and completion of the certified course in",
+      "fontSize": 14,
+      "fontWeight": "normal",
+      "color": "#94a3b8",
+      "textAlign": "center"
+    },
+    {
+      "id": "el_mtb0yqjn_a2i0rma9",
+      "type": "placeholder",
+      "placeholderKey": "course",
+      "x": 500,
+      "y": 420,
+      "text": "{{course}}",
+      "fontSize": 24,
+      "fontWeight": "bold",
+      "color": "#f8fafc",
+      "textAlign": "center"
+    },
+    {
+      "id": "el_mtb0yqjn_hx9x14np",
+      "type": "placeholder",
+      "placeholderKey": "issue_date",
+      "x": 250,
+      "y": 560,
+      "text": "Date: {{issue_date}}",
+      "fontSize": 14,
+      "fontWeight": "normal",
+      "color": "#cbd5e1",
+      "textAlign": "center"
+    },
+    {
+      "id": "el_mtb0yqjn_req8otrt",
+      "type": "placeholder",
+      "placeholderKey": "issuer_name",
+      "x": 750,
+      "y": 560,
+      "text": "Issuer: {{issuer_name}}",
+      "fontSize": 14,
+      "fontWeight": "normal",
+      "color": "#cbd5e1",
+      "textAlign": "center"
+    },
+    {
+      "id": "el_mtb0yqjn_2zcxwszw",
+      "type": "qr",
+      "x": 500,
+      "y": 540,
+      "width": 80,
+      "height": 80
+    },
+    {
+      "id": "el_mtb0yvvy_7t4m7vik",
+      "type": "qr",
+      "x": 65,
+      "y": 72,
+      "width": 80,
+      "height": 80
+    }
+  ],
+  "createdAt": "2026-08-27T04:31:16.846Z",
+  "updatedAt": "2026-08-27T04:31:16.846Z"
+}
