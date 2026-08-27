@@ -1,0 +1,25 @@
+{
+  "id": "cert_mtb10s90_rtvvzowd",
+  "templateId": "tpl_mtb0zdym_an7w8jd9",
+  "templateName": "New Certificate Template",
+  "recipient": {
+    "name": "ADHIL MUHAMMED K"
+  },
+  "data": {
+    "course": "AI AGENT DEVELOPMENT",
+    "issue_date": "27/08/2026",
+    "issuer_name": "Principal Gecw",
+    "recipient_name": "ADHIL MUHAMMED K",
+    "cert_id": "cert_mtb10s90_rtvvzowd"
+  },
+  "issuedBy": {
+    "login": "gecw-students-union",
+    "name": null,
+    "avatar_url": "https://avatars.githubusercontent.com/u/286740115?v=4"
+  },
+  "issuedAt": "2026-08-27T04:32:22.020Z",
+  "repository": {
+    "owner": "gecw-students-union",
+    "name": "astra-gecw-certificates"
+  }
+}
